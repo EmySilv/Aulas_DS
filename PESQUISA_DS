@@ -13,6 +13,9 @@ Controller: Atua como uma interface entre os componentes Model e View para proce
 - Qual a sua aplicação?
 Existem diversos frameworks para Java. Entre eles temos o JSF, Struts 1 e Struts 2, Spring MVC, Play Framework, Tapestry, e diversos outros. Outras linguagens/plataformas também possuem frameworks que aderem ao padrão arquitetural MVC.
 
+- Quais ~soa seus componentes e descreva cada um deles?
+
+
 - Quais são suas vantagens e desvantagens?
 VANTAGENS:
 - separar o código por camadas de responsabilidade

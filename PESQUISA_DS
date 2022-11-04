@@ -1,0 +1,37 @@
+Padrão do projeto MVC
+
+- O que é ?
+é um padrão de arquitetura de software responsável por contribuir na otimização da velocidade entre as requisições feitas pelo comando dos usuários. 
+a arquitetura MVC é dividida em três componentes essenciais: Model, Controller e View. 
+
+Model: Define a estrutura de dados como uma forma de modelagem, atualizando o sistema de acordo com as ações do usuário que interage com o programa. Ele gerencia o estado do aplicativo, o que inclui leitura e gravarão de dados, estado persistente do aplicativo e pode até incluir tarefas relacionadas ao gerenciamento de dados. Como por exemplo, o usuário pressiona um botão, e todo modelo deve ser atualizado à partir desta ação. Com isso, a View é atualizada;
+
+View: Corresponde à representação gráfica, ou melhor, à expressão da última forma dos dados. Utilizando o mesmo exemplo, o usuário interage com um botão dentro do aplicativo, de uma forma direta sem mexer com código ou modificando o modelo. A View manda a ação do usuário diretamente ao Controller;
+
+Controller: Atua como uma interface entre os componentes Model e View para processar toda a lógica de negócios, e solicitações recebidas, manipular dados usando o componente Model e interagir com as Views para renderizar a saída final.
+
+- Qual a sua aplicação?
+Existem diversos frameworks para Java. Entre eles temos o JSF, Struts 1 e Struts 2, Spring MVC, Play Framework, Tapestry, e diversos outros. Outras linguagens/plataformas também possuem frameworks que aderem ao padrão arquitetural MVC.
+
+- Quais são suas vantagens e desvantagens?
+VANTAGENS:
+- separar o código por camadas de responsabilidade
+- modelo de dados
+-  visualização (renderização) e controle
+- Manutenção do sistema se torna mais fácil;
+- Reaproveitamento de código, principalmente da camada de modelo, que pode ser reutilizada em outros projetos
+- Permite o desenvolvimento, testes e manutenção de forma isolada entre as camadas
+
+DESVANTAGENS:
+- confundir códigos de distintas responsabilidades da camada de negócio
+- É difícil entender a arquitetura MVC
+- Deve ter regras rígidas sobre métodos
+- Falta de distribuição: O controlador acaba fazendo todo o trabalho
+
+BIBLIOGRAFIA
+https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc 
+https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308#Implementacao
+https://www.macoratti.net/vbn_mvc.htm
+https://pt.quora.com/Quais-s%C3%A3o-as-vantagens-e-desvantagens-do-modelo-MVC
+https://www.devmedia.com.br/padrao-mvc-java-magazine/21995
+https://dantasju12.medium.com/avalia%C3%A7%C3%A3o-vantagens-e-desvantagens-do-padr%C3%A3o-arquitet%C3%B4nico-mvc-dce2e98d7f1d
